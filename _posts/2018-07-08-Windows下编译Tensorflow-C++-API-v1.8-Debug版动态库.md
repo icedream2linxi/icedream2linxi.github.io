@@ -15,7 +15,7 @@ nocomments: false
 
 再看 `tensorflow\contrib\cmake\tools\create_def_file.py` 文件，里面就做了哪些该被导出，哪些不该被导出的事。
 
-修改 tensorflow\contrib\cmake\tools\create_def_file.py 中的 EXCLUDE_RE 变量。修改为：
+修改 `tensorflow\contrib\cmake\tools\create_def_file.py` 中的 `EXCLUDE_RE` 变量。修改为：
 
 ~~~python
 EXCLUDE_RE = re.compile(r"RTTI|deleting destructor|::internal::|::`anonymous namespace'::|<lambda_[0-9a-z]+>|"
