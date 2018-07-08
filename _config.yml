@@ -20,7 +20,7 @@ profile: One sentence introducing yourself.
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-permalink: /archivers/:title
+permalink: /blog/:year/:month/:day/:title
 plugins:
  - jekyll-paginate
  - jekyll-gist
