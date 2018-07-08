@@ -39,6 +39,8 @@ cmake "${SOURCE_PATH}/tensorflow/contrib/cmake" ^
 
 **不着急执行上述命令，因为有坑需要先进行修改。**
 
+<!-- more -->
+
 > 提示找不到 cpp_shape_inference.pb.h 文件。
 
 在文件在 tensorflow_BUILD_PYTHON_BINDINGS=ON 时会被生成，因此，我们模仿下，在 =OFF 时也进行生成就 OK 了。
