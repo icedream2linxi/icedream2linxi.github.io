@@ -3,6 +3,7 @@ layout: post
 date: 2018-05-10 18:24
 title: Jekyll 支持 MathJax
 categories: [Jekyll, MathJax]
+nocomments: false
 ---
 需要在页面中引入 MathJax 的 JavaScript 或 CSS 来渲染 $\LaTeX$[^1]，例如：
 ~~~ javascript
