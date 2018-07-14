@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://icedream2linxi.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/about/</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/category/</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/feed.xml</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/blog/2018/07/08/Windows%E4%B8%8B%E7%BC%96%E8%AF%91Tensorflow-C++-API-v1.8-Debug%E7%89%88%E5%8A%A8%E6%80%81%E5%BA%93</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/blog/2018/07/08/Windows%E4%B8%8B%E7%BC%96%E8%AF%91Tensorflow-C++-API-v1.8-Release%E7%89%88%E5%8A%A8%E6%80%81%E5%BA%93</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/blog/2018/05/10/Jekyll%E6%94%AF%E6%8C%81MathJax</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/blog/2018/05/10/TFRecord%E6%A0%BC%E5%BC%8F</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/archivers/hello</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/archivers/test</loc>
+  </url>
+  <url>
+    <loc>https://icedream2linxi.github.io/page2/</loc>
+  </url>
+</urlset>
