@@ -31,16 +31,9 @@ sudo yum install MariaDB-server MariaDB-client
 
 包的安装见管网，已经讲的很清楚了：[https://jfrog.com/download-artifactory-pro/](https://jfrog.com/download-artifactory-pro/)
 
-安装完之后，Artifactory 的安装目录位于`/opt/jfrog/artifactory`，后面说明都将基于这个目录。
+安装完之后，Artifactory 的安装目录位于`/opt/jfrog/artifactory`，后面说明都将基于这个目录。另外，它的数据及备份是保存于`/var/opt/jfrog/artifactory`；所以，如果有单独的用于保存数据的分区，要记得把这个目录符号链接到数据分区。
 
-修改`misc/db/createdb/createdb_mariadb.sql`，添加创建 artifactory 数据库用户。例如：
-```sql
-CREATE DATABASE artdb CHARACTER SET utf8 COLLATE utf8_bin;
-CREATE USER 'artifactory'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL ON artdb.* TO 'artifactory'@'localhost' IDENTIFIED BY 'password';
-FLUSH PRIVILEGES;
-```
-密码就试用默认的`password`没关系，Artifactory 会自动将该用户的密码改成高复杂度密码。
+`misc/db/createdb/createdb_mariadb.sql`用于创建 artifactory 数据库及用户。里面的密码虽然使用的是默认的`password`，但没关系，Artifactory 会自动将该用户的密码改成高复杂度密码。
 
 接着将`misc/db/mariadb.properties`文件复制到`etc`目录，并改名为`db.properties`。注意，这里的`etc`不是根目录下的`etc`，而是位于安装目录，如果不存在`etc`目录，则自行新建。
 
